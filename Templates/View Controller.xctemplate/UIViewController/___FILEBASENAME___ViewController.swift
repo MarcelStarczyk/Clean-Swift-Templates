@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___ViewControllerLogic: class {}
+protocol ___VARIABLE_sceneName___ViewControllerLogic: AnyObject {}
 
 final class ___VARIABLE_sceneName___ViewController: UIViewController {
     var interactor: ___VARIABLE_sceneName___InteractorLogic?
