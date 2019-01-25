@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___InteractorProtocol {}
+protocol ___VARIABLE_sceneName___InteractorLogic {}
 
 protocol ___VARIABLE_sceneName___DataStore {}
 
-final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorProtocol, ___VARIABLE_sceneName___DataStore {
-    var presenter: ___VARIABLE_sceneName___PresenterProtocol?
+final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorLogic, ___VARIABLE_sceneName___DataStore {
+    var presenter: ___VARIABLE_sceneName___PresenterLogic?
     //var worker: ___VARIABLE_sceneName___Worker?
 }

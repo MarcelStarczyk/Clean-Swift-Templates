@@ -8,8 +8,8 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___PresenterProtocol {}
+protocol ___VARIABLE_sceneName___PresenterLogic {}
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterProtocol {
-    weak var viewController: ___VARIABLE_sceneName___ViewControllerProtocol?
+final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterLogic {
+    weak var viewController: ___VARIABLE_sceneName___ViewControllerLogic?
 }

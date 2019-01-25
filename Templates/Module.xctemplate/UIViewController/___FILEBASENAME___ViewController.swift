@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___ViewControllerProtocol: class {}
+protocol ___VARIABLE_sceneName___ViewControllerLogic: class {}
 
 final class ___VARIABLE_sceneName___ViewController: UIViewController {
-    var interactor: ___VARIABLE_sceneName___InteractorProtocol?
+    var interactor: ___VARIABLE_sceneName___InteractorLogic?
     var router: ___VARIABLE_sceneName___RouterType?
 }
 
-extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewControllerProtocol {}
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___ViewControllerLogic {}
