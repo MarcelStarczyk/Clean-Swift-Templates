@@ -10,6 +10,12 @@ import UIKit
 
 protocol ___VARIABLE_sceneName___PresenterLogic {}
 
-final class ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterLogic {
-    weak var viewController: ___VARIABLE_sceneName___ViewControllerLogic?
+final class ___VARIABLE_sceneName___Presenter {
+    private weak var viewController: ___VARIABLE_sceneName___ViewControllerLogic?
+    
+    init(viewController: ___VARIABLE_sceneName___ViewControllerLogic?) {
+        self.viewController = viewController
+    }
 }
+
+extension ___VARIABLE_sceneName___Presenter: ___VARIABLE_sceneName___PresenterLogic {}
