@@ -118,13 +118,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_sceneName:identifier___Models</string>
+			<string>___VARIABLE_sceneName:identifier___Actions</string>
 			<key>Description</key>
-			<string>The model file name</string>
+			<string>The actions file name</string>
 			<key>Identifier</key>
 			<string>modelFileName</string>
 			<key>Name</key>
-			<string>Model File Name:</string>
+			<string>Actions File Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
