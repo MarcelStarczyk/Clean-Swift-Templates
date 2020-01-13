@@ -9,7 +9,7 @@
 import UIKit
 
 enum ___VARIABLE_sceneName___Actions {
-    // MARK: Use cases
+    // MARK: - Use cases
     enum Something {
         struct Request {}
         struct Response {}

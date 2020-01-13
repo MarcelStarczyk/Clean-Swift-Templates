@@ -17,9 +17,11 @@ protocol ___VARIABLE_sceneName___DataPassing {
 }
 
 final class ___VARIABLE_sceneName___Router: ___VARIABLE_sceneName___DataPassing {
+    // MARK: - Public Properties
     weak var viewController: ___VARIABLE_sceneName___ViewController?
     var dataStore: ___VARIABLE_sceneName___DataStore?
-    
+
+    // MARK: - Initializers
     init(viewController: ___VARIABLE_sceneName___ViewController?, dataStore: ___VARIABLE_sceneName___DataStore) {
         self.viewController = viewController
         self.dataStore = dataStore

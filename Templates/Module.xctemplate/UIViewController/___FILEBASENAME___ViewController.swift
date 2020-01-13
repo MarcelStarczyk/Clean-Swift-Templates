@@ -11,6 +11,7 @@ import UIKit
 protocol ___VARIABLE_sceneName___ViewControllerLogic: AnyObject {}
 
 final class ___VARIABLE_sceneName___ViewController: UIViewController {
+    // MARK: - Public Properties
     var interactor: ___VARIABLE_sceneName___InteractorLogic?
     var router: ___VARIABLE_sceneName___RouterType?
 }
