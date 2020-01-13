@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol ___VARIABLE_sceneName___ConfiguratorProtocol {
+public protocol ___VARIABLE_sceneName___ConfiguratorProtocol {
     func configure___VARIABLE_sceneName___Module() -> UIViewController
 }
 
-enum ___VARIABLE_sceneName___Configurator: ___VARIABLE_sceneName___ConfiguratorProtocol {
+public enum ___VARIABLE_sceneName___Configurator: ___VARIABLE_sceneName___ConfiguratorProtocol {
     func configure___VARIABLE_sceneName___Module() -> UIViewController {
-        // let viewController: UIViewController = 
+        // let viewController: UIViewController =
 
         let presenter = ___VARIABLE_sceneName___Presenter(viewController: viewController)
         let interactor = ___VARIABLE_sceneName___Interactor(presenter: presenter)
