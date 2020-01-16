@@ -14,13 +14,13 @@ public protocol ___VARIABLE_sceneName___ConfiguratorProtocol {
 
 public enum ___VARIABLE_sceneName___Configurator: ___VARIABLE_sceneName___ConfiguratorProtocol {
     func configure___VARIABLE_sceneName___Module() -> UIViewController {
-        // let viewController: UIViewController =
+        // let viewController: ___VARIABLE_sceneName___ViewController = ___VARIABLE_sceneName___ViewController(nib: )
 
         let presenter = ___VARIABLE_sceneName___Presenter(viewController: viewController)
         let interactor = ___VARIABLE_sceneName___Interactor(presenter: presenter)
         let router = ___VARIABLE_sceneName___Router(viewController: viewController, dataStore: interactor)
 
-        viewController?.interactor = interactor
-        viewController?.router = router
+        viewController.interactor = interactor
+        viewController.router = router
     }
 }

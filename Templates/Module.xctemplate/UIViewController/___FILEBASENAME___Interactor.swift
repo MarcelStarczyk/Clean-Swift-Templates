@@ -15,4 +15,9 @@ protocol ___VARIABLE_sceneName___DataStore {}
 final class ___VARIABLE_sceneName___Interactor: ___VARIABLE_sceneName___InteractorLogic, ___VARIABLE_sceneName___DataStore {
     // MARK: - Public Properties
     var presenter: ___VARIABLE_sceneName___PresenterLogic?
+
+    // MARK: - Initializers
+    init(presenter: ___VARIABLE_sceneName___PresenterLogic?) {
+      self.presenter = presenter
+    }
 }
