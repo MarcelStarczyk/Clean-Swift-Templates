@@ -9,11 +9,11 @@
 import UIKit
 
 public protocol ___VARIABLE_sceneName___ConfiguratorProtocol {
-    func configure___VARIABLE_sceneName___Module() -> UIViewController
+    static func configure___VARIABLE_sceneName___Module() -> UIViewController
 }
 
 public enum ___VARIABLE_sceneName___Configurator: ___VARIABLE_sceneName___ConfiguratorProtocol {
-    func configure___VARIABLE_sceneName___Module() -> UIViewController {
+    public static func configure___VARIABLE_sceneName___Module() -> UIViewController {
         // let viewController: ___VARIABLE_sceneName___ViewController = ___VARIABLE_sceneName___ViewController(nib: )
 
         let presenter = ___VARIABLE_sceneName___Presenter(viewController: viewController)
