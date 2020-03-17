@@ -22,5 +22,7 @@ public enum ___VARIABLE_sceneName___Configurator: ___VARIABLE_sceneName___Config
 
         viewController.interactor = interactor
         viewController.router = router
+
+        return viewController
     }
 }
